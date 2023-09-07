@@ -1,0 +1,18 @@
+/* GLOBAL STYLES */
+body {
+    background: #333;
+    padding-top: 5em;
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+  }
+  
+.intro-writer h1 {
+    font-size: 5em;
+    color: #fff;
+    font-family: monospace;
+    white-space: nowrap;
+    letter-spacing: .15em;
+    border-right: .135em solid;
+    animation: blink-caret .5s step-end infinite;
+}
