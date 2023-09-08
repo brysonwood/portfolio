@@ -156,6 +156,10 @@ body::-webkit-scrollbar {
     .main-container {
         align-items: flex-start;
     }
+
+    .link {
+        padding: 0.7em;
+    }
 }
 
 @media (max-width: 639.98px) {

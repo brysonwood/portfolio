@@ -13,6 +13,10 @@
     min-height: 300px; 
 }
 
+.card:hover {
+    transform: scale(1);
+}
+
 .card-french-gray {
     background-color: #CECDCF; 
 }
@@ -66,4 +70,9 @@
     grid-gap: 40px; 
     min-width: auto;
 }
-  
+
+@media (max-width: 1023.98px) {
+    .card:hover {
+        transform: scale(1);
+    }
+}
