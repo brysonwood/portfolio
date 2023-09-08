@@ -1,5 +1,10 @@
 document.addEventListener('DOMContentLoaded',function(event){
     var test = "Bryson Wood."
+    var faded = document.querySelector(".faded");
+
+    function startFadeOut(){
+        faded.style.opacity = 0;
+    }
 
     startWriterAnimation(0);
 
@@ -20,9 +25,12 @@ document.addEventListener('DOMContentLoaded',function(event){
         if (i < 1) {
             writer(test, 0, function(){
                 startWriterAnimation(i + 1);
+                startFadeOut();
             });
         }
+        
     }
 
     startWriterAnimation(0);
+    
 });
