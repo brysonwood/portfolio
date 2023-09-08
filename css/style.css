@@ -6,6 +6,49 @@ body {
     overflow: hidden; /* Test this */
 }
 
+.header-container {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-height: 20vh;
+    width: 100vw;
+}
+
+.header-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding-left: 5em;
+    color: #fff;
+}
+
+.mail, .linkedin {
+    padding: 0.3em;
+}
+
+.header-left a:hover, .header-right a:hover {
+    text-decoration: underline;
+}
+
+.header-left a, .header-right a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-right {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    padding-right: 5em;
+    color: #fff;
+}
+
+
 .main-container {
     display: flex;
     align-items: center;
@@ -19,7 +62,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 100%;
+    justify-content: flex-start;
+    height: 100vh;
+    width: 100vw;
 }
 
 .faded {

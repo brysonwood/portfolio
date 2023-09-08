@@ -26,6 +26,9 @@ document.addEventListener('DOMContentLoaded',function(event){
             writer(test, 0, function(){
                 startWriterAnimation(i + 1);
                 startFadeOut();
+                setTimeout(function() {
+                    faded.remove();
+                }, 1200);
             });
         }
         
