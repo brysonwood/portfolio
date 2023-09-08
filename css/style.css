@@ -5,8 +5,8 @@ body {
     display: flex;
     justify-content: center;
     font-family: monospace;
-  }
-  
+}
+
 .intro-writer h1 {
     font-size: 5em;
     color: #fff;
@@ -15,4 +15,9 @@ body {
     letter-spacing: .15em;
     border-right: .135em solid;
     animation: blink-caret .5s step-end infinite;
+}
+
+@keyframes blink-caret {
+    from, to {border-color: transparent}
+    50% {border-color: #fff}
 }
