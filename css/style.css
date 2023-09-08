@@ -150,6 +150,7 @@ body::-webkit-scrollbar {
 
     .description {
         padding-top: 25px;
+        text-align: center;
     }
 
     .main-container {
