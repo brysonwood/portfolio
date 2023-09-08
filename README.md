@@ -1,4 +1,4 @@
-# Personal Portfolio Website
+# Portfolio Website
 
 ## Description
 My portfolio website is meant to be a showcase of my projects and work experience. The website currently contains links to my LinkedIn, GitHub, my Resume, and a link to my email.
