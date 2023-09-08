@@ -1,6 +1,7 @@
 /* GLOBAL STYLES */
 body {
     background-color: #333;
+    color: #fff;
     font-family: monospace;
     margin: 0;
 }
@@ -29,7 +30,7 @@ body::-webkit-scrollbar {
     color: #fff;
 }
 
-.mail, .linkedin {
+.link {
     padding: 0.3em;
     text-align: right;
 }
@@ -49,7 +50,6 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: left;
     align-items: left;
-    padding-left: 5em;
     color: #fff;
 }
 
@@ -69,7 +69,7 @@ body::-webkit-scrollbar {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    min-height: 100vh;
+    min-height: auto;
     min-width: 100vw;
 }
 
@@ -101,6 +101,7 @@ body::-webkit-scrollbar {
 .description {
     position: relative;
     z-index: 0;
+    max-width: 80vw;
     color: #fff;
 }
 
@@ -115,13 +116,13 @@ body::-webkit-scrollbar {
 }
 
 /* MOBILE STYLES */
-@media (max-width: 788.98px) {
+@media (max-width: 1023.98px) {
     .header-container {
         flex-direction: column;
         /*background-color: pink;*/
         align-items: center;
         max-height: none;
-        min-width: 100vw;
+        min-width: 100%;
         padding: 1em;
     }
 
@@ -147,7 +148,17 @@ body::-webkit-scrollbar {
         min-height: auto;
     }
 
+    .description {
+        padding-top: 25px;
+    }
+
     .main-container {
         align-items: flex-start;
+    }
+}
+
+@media (max-width: 639.98px) {
+    .intro-writer h1 {
+        font-size: 2.5em;
     }
 }

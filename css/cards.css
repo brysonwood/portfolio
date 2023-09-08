@@ -1,0 +1,69 @@
+.grid-container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 40px; 
+    min-width: 80vw;
+}
+  
+.card {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 300px; 
+}
+
+.card--french-gray {
+    background-color: #CECDCF; 
+}
+.card--vanilla-ice {
+    background-color: #F5DADF; 
+}
+.card--mischka {
+    background-color: #E2E0E3; 
+}
+.card--givry {
+    background-color: #F9DBC6; 
+}
+.card--bon-jour {
+    background-color: #EDEBED; 
+}
+.card--jagged-ice {
+    background-color: #C3E5E9; 
+}
+.card--shadow-green {
+    background-color: #99C4C8; 
+}
+.card--conch {
+    background-color: #C0D5CF; 
+}
+.card--gray-nurse {
+    background-color: #E2E8DE; 
+}
+.card--pampas {
+    background-color: #F2ECE8; 
+}
+.card-footer {
+      background-color: #fff;
+      padding: 20px; 
+}
+.card-name {
+    color: #000;
+    font-size: 18px;
+    margin: 0;
+    text-transform: uppercase; 
+}
+    
+.card-name span {
+    display: block; 
+}
+  
+.grid {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(5, auto);
+    grid-gap: 40px; 
+    min-width: auto;
+}
+  
