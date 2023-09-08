@@ -109,7 +109,7 @@ body {
 @media (max-width: 789px) {
     .header-container {
         flex-direction: column;
-        background-color: pink;
+        /*background-color: pink;*/
         align-items: center;
         max-height: none;
         min-width: 100vw;
