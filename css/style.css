@@ -22,7 +22,7 @@ body {
     flex-direction: column;
     justify-content: right;
     align-items: right;
-    padding-right: 3em;
+    
     color: #fff;
 }
 
@@ -38,6 +38,7 @@ body {
 .header-right a, .header-left a{
     font-size: 17px;
     text-decoration: none;
+    padding-right: 20px;
     color: #fff;
 }
 
