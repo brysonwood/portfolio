@@ -80,23 +80,37 @@
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-rows: repeat(5, auto);
-    grid-gap: 40px; 
+    grid-auto-rows: auto;
+    gap: 40px; 
     min-width: auto;
+}
+
+.card-footer-skills {
+    padding: 10px;
+}
+
+.grid-item-skills i {
+    font-size: 90px;
+    padding-top: 8.75px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 8.75px;
+    color: #333;
 }
 
 .grid-skills {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-template-rows: repeat(5, 210px);
-    grid-gap: 20px;
+    grid-auto-rows: auto;
+    gap: 40px;
 }
 
-.grid-item-skills {
-    transform: scale(0.5);
+.card-skills {
+    min-height: 150px;
+    width: 100px;
 }
 
 .card-name-skills {
-    font-size: 2.25em;
+    font-size: 1em;
 }
 
 
@@ -112,7 +126,7 @@
         display: grid;
         justify-content: center;
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-        grid-template-rows: repeat(5, 210px);
+        ggrid-auto-rows: 200px;
         grid-gap: 20px;
         min-width: auto;
     }
