@@ -84,7 +84,7 @@
     min-width: auto;
 }
 
-@media (max-width: 989.98px) {
+@media (max-width: 639.98px) {
     .grid {
         display: flex;
         flex-direction: column;
