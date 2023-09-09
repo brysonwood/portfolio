@@ -130,10 +130,34 @@ body {
     background-color: #B2C2A7;
 }
 
+.bottom-menu {
+    position: relative;
+    z-index: 0;
+    max-width: 80vw;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.skills-container {
+    min-width: 80vw;
+}
+
 /* MOBILE STYLES */
 @media (max-width: 989.98px) {
     body::-webkit-scrollbar {
         display: none;
+    }
+
+    .bottom-menu {
+        min-width: 100vw;
+        text-align: center;
+    }
+
+    .skills-container {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .header-container {
