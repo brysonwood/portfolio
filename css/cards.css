@@ -85,11 +85,36 @@
     min-width: auto;
 }
 
+.grid-skills {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(5, 210px);
+    grid-gap: 20px;
+}
+
+.grid-item-skills {
+    transform: scale(0.5);
+}
+
+.card-name-skills {
+    font-size: 2.25em;
+}
+
+
+
 @media (max-width: 639.98px) {
     .grid {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .grid-skills {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-template-rows: repeat(5, 210px);
+        grid-gap: 20px;
+        min-width: auto;
     }
 
     .grid-header {
